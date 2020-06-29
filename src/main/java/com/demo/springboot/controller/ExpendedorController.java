@@ -17,16 +17,10 @@ public class ExpendedorController {
     @Autowired
     private FacturaService facturaService;
 
-    @RequestMapping("/test")
-    public String index() {
-        return "Greetings from Spring Boot!";
-    }
 
-    @PostMapping(path="/add") // Map ONLY POST Requests
+    @PostMapping(path="/add")
     public @ResponseBody String addNewUser (@RequestParam String nombreArticulo,
                                             @RequestParam Integer precio) {
-        // @ResponseBody means the returned String is the response, not a view name
-        // @RequestParam means it is a parameter from the GET or POST request
 
         Articulo articulo = new Articulo();
         articulo.setNombreArticulo(nombreArticulo);
