@@ -1,0 +1,13 @@
+INSERT INTO articulo (nombre_articulo, precio) VALUES ('Pepsi', 180);
+INSERT INTO articulo (nombre_articulo, precio) VALUES ('CocaCola', 60);
+INSERT INTO articulo (nombre_articulo, precio) VALUES ('Pan', 10);
+INSERT INTO articulo (nombre_articulo, precio) VALUES ('Tomate', 35);
+INSERT INTO articulo (nombre_articulo, precio) VALUES ('TeFrio', 25);
+INSERT INTO articulo (nombre_articulo, precio) VALUES ('Chocolate', 380);
+INSERT INTO articulo (nombre_articulo, precio) VALUES ('Chicles', 680);
+INSERT INTO articulo (nombre_articulo, precio) VALUES ('Budin', 1280);
+INSERT INTO articulo (nombre_articulo, precio) VALUES ('Caramelo', 150);
+INSERT INTO articulo (nombre_articulo, precio) VALUES ('Mani', 5);
+INSERT INTO expendedor (nombre_expendedor, ubicacion, modelo) VALUES ('ExpendedorMallSanPedro', 'San Jose','XYZ1');
+INSERT INTO expendedor (nombre_expendedor, ubicacion, modelo) VALUES ('ExpendedorMallAlajuela', 'Alajuela','XYZ1');
+INSERT INTO expendedor (nombre_expendedor, ubicacion, modelo) VALUES ('ExpendedorMallPaseo', 'Heredia','XYZ2');
